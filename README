@@ -1,0 +1,8 @@
+1. pip install flask
+2. pip install flask-sqlalchemy
+3. pip install 'Flask-SQLAlchemy<3'
+4. BD
+    python
+    from app import db
+    db.create_all()
+    exit()
